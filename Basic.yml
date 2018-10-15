@@ -137,3 +137,29 @@ Crate:
         Commands:
           - 'give %player% 371 16'
         Items: {}
+    4:
+      DisplayName: '&e&l$500'
+      DisplayItem: 'SUNFLOWER'
+      DisplayAmount: 1
+      Lore:
+        - '&7Get a few extra bucks.'
+        - '&6&lChance: &c&l60%'
+      MaxRange: 100
+      Chance: 45
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+          - 'eco give %player% 500'
+      Messages:
+         - '&7You just won &a$500&7.'
+      BlackListed-Permissions:
+         - 'crazycrates.blacklist.basic.3'
+      Alternative-Prize:
+        Toggle: true
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% 371 16'
+        Items: {}
