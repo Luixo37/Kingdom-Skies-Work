@@ -145,7 +145,7 @@ Crate:
         - '&7Get a few extra bucks.'
         - '&6&lChance: &c&l60%'
       MaxRange: 100
-      Chance: 40
+      Chance: 55
       Firework: true
       Glowing: false
       Player: ''
