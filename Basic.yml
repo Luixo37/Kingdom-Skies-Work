@@ -185,3 +185,25 @@ Crate:
           Commands:
             - 'give %player% 264 3'
           Items: {}
+      6:
+        DisplayName: '&e&4 Wither Skeleton Skull'
+        DisplayItem: 'WITHER_SKELETON_SKULL'
+        DisplayAmount: 1
+        Lore:
+          - '&7Spawn the Wither?'
+          - '&6&lChance: &c&l60%'
+        MaxRange: 100
+        Chance: 40
+        Firework: false
+        Glowing: false
+        Player: ''
+        Unbreakable: false
+        Messages:
+          - '&7You just won &7&l3 a Wither Skeleton Skull&7!'
+        BlackListed-Permissions:
+        Alternative-Prize:
+          Toggle: false
+          Messages:
+          Commands:
+            - 'give %player% 397:1 1'
+          Items: {} 
