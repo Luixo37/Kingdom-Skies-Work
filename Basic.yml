@@ -207,3 +207,25 @@ Crate:
           Commands:
             - 'give %player% 397:1 1'
           Items: {} 
+      7:
+        DisplayName: '&e&c Chicken Spawn Egg'
+        DisplayItem: 'SPAWN_CHICKEN'
+        DisplayAmount: 1
+        Lore:
+          - '&7Get a Chicken Spawn egg'
+          - '&6&lChance: &c&l60%'
+        MaxRange: 100
+        Chance: 45
+        Firework: false
+        Glowing: false
+        Player: ''
+        Unbreakable: false
+        Messages:
+          - '&7You just won &7&l3 a Chicken Spawn Egg!&7!'
+        BlackListed-Permissions:
+        Alternative-Prize:
+          Toggle: false
+          Messages:
+          Commands:
+            - 'give %player% 383:93 1'
+          Items: {} 
