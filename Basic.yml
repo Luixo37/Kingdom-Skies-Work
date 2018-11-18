@@ -164,7 +164,7 @@ Crate:
           - 'give %player% 371 16'
         Items: {}
       5:
-        DisplayName: '&e&l3 Diamonds'
+        DisplayName: '&e&l10 Diamonds'
         DisplayItem: 'DIAMOND'
         DisplayAmount: 1
         Lore:
@@ -177,13 +177,13 @@ Crate:
         Player: ''
         Unbreakable: false
         Messages:
-          - '&7You just won &7&l3 Diamonds&7.'
+          - '&7You just won &7&l10 Diamonds&7.'
         BlackListed-Permissions:
         Alternative-Prize:
           Toggle: false
           Messages:
           Commands:
-            - 'give %player% 264 3'
+            - 'give %player% 264 10'
           Items: {}
       6:
         DisplayName: '&e&4 Wither Skeleton Skull'
