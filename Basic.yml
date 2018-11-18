@@ -298,7 +298,7 @@ Crate:
      12:
         DisplayName: '&e&c Parrot Spawn Egg'
         DisplayItem: 'SPAWN_PARROT'
-        DisplayAmount: 32
+        DisplayAmount: 1
         Lore:
           - '&7Get a Parrot Spawn Egg'
           - '&6&lChance: &c&l60%'
