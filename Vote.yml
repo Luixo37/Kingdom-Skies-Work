@@ -118,7 +118,7 @@ Crate:
         - '&7Make it rain Money.'
         - '&6&lChance: &c&l20%'
       MaxRange: 100
-      Chance: 10
+      Chance: 15
       Firework: true
       Glowing: false
       Player: ''
@@ -159,7 +159,7 @@ Crate:
           Commands:
             - 'give %player% 264 3'
           Items: {}
-        4:
+        5:
         DisplayName: '&e&l Meat'
         DisplayItem: 'cooked_beef'
         DisplayAmount: 1
@@ -181,7 +181,7 @@ Crate:
           Commands:
             - 'give %player% 364 64'
           Items: {}
-        5:
+        6:
       DisplayName: '&e&l$250'
       DisplayItem: 'SUNFLOWER'
       DisplayAmount: 1
@@ -208,3 +208,92 @@ Crate:
         Commands:
           - 'give %player% 371 16'
         Items: {}
+        7:
+      DisplayName: '&b&lCheap Chestplate'
+      DisplayItem: 'LEATHER_CHESTPLATE'
+      DisplayAmount: 1
+      Lore:
+        - '&7Win a cheap chestplate.'
+        - '&6&lChance: &c&l60%'
+      DisplayEnchantments: #Adds enchantments to the display item.
+        - 'PROTECTION_ENVIRONMENTAL:2'
+      MaxRange: 100
+      Chance: 60
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:LEATHER_CHESTPLATE, Amount:1, Name:&bCheap Chestplate, PROTECTION_ENVIRONMENTAL:2'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+        8:
+        DisplayName: '&e&c Chicken Spawn Egg'
+        DisplayItem: 'SPAWN_CHICKEN'
+        DisplayAmount: 1
+        Lore:
+          - '&7Get a Chicken Spawn egg'
+          - '&6&lChance: &c&l60%'
+        MaxRange: 100
+        Chance: 45
+        Firework: false
+        Glowing: false
+        Player: ''
+        Unbreakable: false
+        Messages:
+          - '&7You just won &7&l3 a Chicken Spawn Egg!&7!'
+        BlackListed-Permissions:
+        Alternative-Prize:
+          Toggle: false
+          Messages:
+          Commands:
+            - 'give %player% 383:93 1'
+          Items: {} 
+      9:
+        DisplayName: '&e&c Cow Spawn Egg'
+        DisplayItem: 'SPAWN_COW'
+        DisplayAmount: 1
+        Lore:
+          - '&7Get a Cow Spawn egg'
+          - '&6&lChance: &c&l60%'
+        MaxRange: 100
+        Chance: 45
+        Firework: false
+        Glowing: false
+        Player: ''
+        Unbreakable: false
+        Messages:
+          - '&7You just won &7&l3 a Cow Spawn Egg!&7!'
+        BlackListed-Permissions:
+        Alternative-Prize:
+          Toggle: false
+          Messages:
+          Commands:
+            - 'give %player% 383:92 1'
+          Items: {} 
+      10:
+        DisplayName: '&e&c Pig Spawn Egg'
+        DisplayItem: 'PIG_CHICKEN'
+        DisplayAmount: 1
+        Lore:
+          - '&7Get a Pig Spawn egg'
+          - '&6&lChance: &c&l60%'
+        MaxRange: 100
+        Chance: 45
+        Firework: false
+        Glowing: false
+        Player: ''
+        Unbreakable: false
+        Messages:
+          - '&7You just won &7&l3 a Pig Spawn Egg!&7!'
+        BlackListed-Permissions:
+        Alternative-Prize:
+          Toggle: false
+          Messages:
+          Commands:
+            - 'give %player% 383:90 1'
+          Items: {}
