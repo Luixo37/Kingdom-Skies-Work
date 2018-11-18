@@ -166,7 +166,7 @@ Crate:
       5:
         DisplayName: '&e&l10 Diamonds'
         DisplayItem: 'DIAMOND'
-        DisplayAmount: 1
+        DisplayAmount: 10
         Lore:
           - '&7Have some diamonds.'
           - '&6&lChance: &c&l60%'
@@ -273,3 +273,25 @@ Crate:
           Commands:
             - 'give %player% 383:90 1'
           Items: {}
+     11:
+        DisplayName: '&e&c 32 iron ingots'
+        DisplayItem: 'IRON_INGOT'
+        DisplayAmount: 32
+        Lore:
+          - '&7Get 32 Iron Ingots'
+          - '&6&lChance: &c&l60%'
+        MaxRange: 100
+        Chance: 30
+        Firework: false
+        Glowing: false
+        Player: ''
+        Unbreakable: false
+        Messages:
+          - '&7You just won &7&l3 32 Iron Ingots!&7!'
+        BlackListed-Permissions:
+        Alternative-Prize:
+          Toggle: false
+          Messages:
+          Commands:
+            - 'give %player% 265 1'
+          Items: {} 
