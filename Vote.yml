@@ -118,7 +118,7 @@ Crate:
         - '&7Make it rain Money.'
         - '&6&lChance: &c&l20%'
       MaxRange: 100
-      Chance: 20
+      Chance: 10
       Firework: true
       Glowing: false
       Player: ''
@@ -128,6 +128,77 @@ Crate:
       # - 'pex user %player% add crazycrates.blacklist.basic.3' #This is the line where you would give the user the permission.
       Messages:
         - '&7You just won &a$1,000&7.'
+      BlackListed-Permissions:
+        - 'crazycrates.blacklist.basic.3'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% 371 16'
+        Items: {}
+      4:
+        DisplayName: '&e&l3 Diamonds'
+        DisplayItem: 'DIAMOND'
+        DisplayAmount: 1
+        Lore:
+          - '&7Have some diamonds.'
+          - '&6&lChance: &c&l60%'
+        MaxRange: 100
+        Chance: 25
+        Firework: true
+        Glowing: false
+        Player: ''
+        Unbreakable: false
+        Messages:
+          - '&7You just won &7&l3 Diamonds&7.'
+        BlackListed-Permissions:
+        Alternative-Prize:
+          Toggle: false
+          Messages:
+          Commands:
+            - 'give %player% 264 3'
+          Items: {}
+        4:
+        DisplayName: '&e&l Meat'
+        DisplayItem: 'cooked_beef'
+        DisplayAmount: 1
+        Lore:
+          - '&7Have some Meat.'
+          - '&6&lChance: &c&l60%'
+        MaxRange: 100
+        Chance: 60
+        Firework: true
+        Glowing: false
+        Player: ''
+        Unbreakable: false
+        Messages:
+          - '&7You just won &7&l Some Meat&7.'
+        BlackListed-Permissions:
+        Alternative-Prize:
+          Toggle: false
+          Messages:
+          Commands:
+            - 'give %player% 364 64'
+          Items: {}
+        5:
+      DisplayName: '&e&l$250'
+      DisplayItem: 'SUNFLOWER'
+      DisplayAmount: 1
+      Lore:
+        - '&7Make it rain Money.'
+        - '&6&lChance: &c&l20%'
+      MaxRange: 100
+      Chance: 25
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'eco give %Player% 250'
+      # - 'pex user %player% add crazycrates.blacklist.basic.3' #This is the line where you would give the user the permission.
+      Messages:
+        - '&7You just won &a2507.'
       BlackListed-Permissions:
         - 'crazycrates.blacklist.basic.3'
       Alternative-Prize:
