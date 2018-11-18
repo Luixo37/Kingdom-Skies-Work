@@ -206,7 +206,7 @@ Crate:
           Messages:
           Commands:
             - 'give %player% 397:1 1'
-          Items: {} 
+          Items: {}
       7:
         DisplayName: '&e&c Chicken Spawn Egg'
         DisplayItem: 'SPAWN_CHICKEN'
@@ -228,7 +228,7 @@ Crate:
           Messages:
           Commands:
             - 'give %player% 383:93 1'
-          Items: {} 
+          Items: {}
       8:
         DisplayName: '&e&c Cow Spawn Egg'
         DisplayItem: 'SPAWN_COW'
@@ -250,7 +250,7 @@ Crate:
           Messages:
           Commands:
             - 'give %player% 383:92 1'
-          Items: {} 
+          Items: {}
       9:
         DisplayName: '&e&c Pig Spawn Egg'
         DisplayItem: 'PIG_CHICKEN'
@@ -294,4 +294,27 @@ Crate:
           Messages:
           Commands:
             - 'give %player% 265 1'
-          Items: {} 
+          Items: {}
+     12:
+        DisplayName: '&e&c Parrot Spawn Egg'
+        DisplayItem: 'SPAWN_PARROT'
+        DisplayAmount: 32
+        Lore:
+          - '&7Get a Parrot Spawn Egg'
+          - '&6&lChance: &c&l60%'
+        MaxRange: 100
+        Chance: 55
+        Firework: false
+        Glowing: false
+        Player: ''
+        Unbreakable: false
+        Messages:
+          - '&7You just won &7&l3 a Parrot Spawn Egg!&7!'
+        BlackListed-Permissions:
+        Alternative-Prize:
+          Toggle: false
+          Messages:
+          Commands:
+            - 'give %player% 383:105 1'
+          Items: {}
+          
